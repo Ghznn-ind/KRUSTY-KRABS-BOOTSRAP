@@ -1,9 +1,11 @@
+/* PAGE HOME */
+
 /* BANNER */
 .banner {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../background.png");
+    url("../images/background.png");
   background-size: cover;
   background-position: center;
 }
@@ -159,4 +161,49 @@
 /* SUBSCRIBE */
 .footer {
   background-color: #595959;
+}
+
+/* FOOTER */
+.footer .text-muted {
+  color: #adb5bd !important;
+}
+
+footer.bg-dark .text-muted {
+  color: #adb5bd !important;
+}
+
+
+/* PAGE PRODUK */
+
+/* BANNER */
+.produk-banner {
+  height: 50vh;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* KATEGORI PRODUK */
+.tab-content .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-content .card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.tab-content .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-content .card-text {
+  flex: 1;
 }

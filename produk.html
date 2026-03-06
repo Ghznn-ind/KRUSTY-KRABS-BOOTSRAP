@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Krusty Krabs</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/krusty_krab_logo.png" />
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/images/krusty_krab_logo.png"
+              alt="Logo"
+              height="40"
+            />
+          </a>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <a href="index.html" class="nav-link"
+                ><i class="bi bi-house-door"></i> Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="#" class="nav-link active"
+                ><i class="bi bi-bag-dash"></i> Produk</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="#" class="nav-link"
+                ><i class="bi bi-ticket-perforated"></i> Promo</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="#" class="nav-link"><i class="bi bi-cart"></i> Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVIGATION TUTUP -->
+
+    <!-- SECTION BANNER -->
+    <div
+      class="container-fluid produk-banner align-items-center d-flex justify-content-center"
+    >
+      <div class="container">
+        <h1 class="text-light text-center mb-3">Ayo Makan Dan Bayar Nanti</h1>
+        <div class="col-md-8 offset-md-2"></div>
+      </div>
+    </div>
+    <!-- BANNER TUTUP -->
+
+    <!-- SECTION KATEGORI -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <!-- KATEGORI -->
+          <div class="col-md-4 col-lg-3 mb-5">
+            <h4>Kategori</h4>
+            <div class="list-group" id="list-tab" role="tablist">
+              <a
+                class="list-group-item list-group-item-action active"
+                data-bs-toggle="list"
+                role="tab"
+                href="#semua-produk"
+                >Semua Produk</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+                role="tab"
+                href="#krabby-patty"
+                >Krabby Patty</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+                role="tab"
+                href="#krabby-kids"
+                >Krabby Kids</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+                role="tab"
+                href="#krabby-drink"
+                >Krabby Drink</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+                role="tab"
+                href="#unique-krabby"
+                >Unique Krabby</a
+              >
+            </div>
+          </div>
+
+            <!-- PRODUK -->
+            <div class="col-md-8 col-lg-9">
+              <div class="tab-content">
+                <!-- SEMUA PRODUK -->
+                <div class="tab-pane fade show active" id="semua-produk">
+                  <h4 class="text-center mb-4">Semua Produk</h4>
+                  <div class="row g-4">
+                    <!-- CATALOG 1 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krabby-patty.jpg"
+                          data-lightbox="krabby-patty"
+                          data-title="Krabby Patty"
+                        >
+                          <img
+                            src="assets/images/krabby-patty.jpg"
+                            class="card-img-top"
+                            alt="Karbby Patty"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krabby Patty</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            The Krabby Patty is a famous burger from the Krusty Krab in Bikini Bottom. 
+                            Known for its secret recipe, it has a juicy patty, fresh lettuce, cheese, 
+                            pickles, onions, ketchup, and mustard inside a soft sesame bun.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 15.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 2 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krusty-dogs.jpg"
+                          data-lightbox="Krusty Dog"
+                          data-title="Krusty Dog"
+                        >
+                          <img
+                            src="assets/images/krusty-dogs.jpg"
+                            class="card-img-top"
+                            alt="Krusty Dog"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krusty Dog</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Krusty Dog is a delicious hot dog from the Krusty Krab. 
+                            It features a juicy sausage inside a soft bun, topped with fresh ingredients 
+                            and tasty sauces, making it a popular snack in Bikini Bottom.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 12.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 3 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Kiddie-Meal.jpg"
+                          data-lightbox="Kiddie Meal"
+                          data-title="Kiddie Meal"
+                        >
+                          <img
+                            src="assets/images/Kiddie-Meal.jpg"
+                            class="card-img-top"
+                            alt="Kiddie Meal"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Kiddie Meal</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Kiddie Meal is a fun meal made especially for kids at the Krusty Krab. 
+                            It usually includes a small Krabby Patty, crispy fries, a drink, and sometimes a toy, 
+                            making it tasty and enjoyable for young customers.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 25.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 4 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Potato-Stick.jpg"
+                          data-lightbox="Tie Potatoes"
+                          data-title="Tie Potatoes"
+                        >
+                          <img
+                            src="assets/images/Potato-Stick.jpg"
+                            class="card-img-top"
+                            alt="Tie Potatoes"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Tie Potatoes</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Tie Potatoes are crispy potato snacks shaped like small ties. 
+                            They are golden, crunchy on the outside, soft on the inside, 
+                            and usually served warm with tasty dipping sauces at the Krusty Krab
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 8.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 5 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/kelps-shake.jpg"
+                          data-lightbox="Kelp Shake"
+                          data-title="Kelp Shake"
+                        >
+                          <img
+                            src="assets/images/kelps-shake.jpg"
+                            class="card-img-top"
+                            alt="Kelp Shake"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Kelp Shake</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Kelp Shake is a unique drink from Bikini Bottom made with fresh kelp. 
+                            It has a smooth texture and a refreshing ocean flavor, 
+                            making it a popular beverage at the Krusty Krab.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Rp. 10.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 6 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krabby-rgb.jpg"
+                          data-lightbox="Krabby Patty RGB"
+                          data-title="Krabby Patty RGB"
+                        >
+                          <img
+                            src="assets/images/krabby-rgb.jpg"
+                            class="card-img-top"
+                            alt="Krabby Patty RGB"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krabby Patty RGB</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            The Krabby Patty is the signature burger of the Krusty Krab in Bikini Bottom. 
+                            It features a juicy patty, fresh lettuce, cheese, pickles, onions, 
+                            and sauces inside a soft sesame bun, 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 20.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 7 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Cute-Patty.jpg"
+                          data-lightbox="Cute Krabby Patty"
+                          data-title="Cute Krabby Patty"
+                        >
+                          <img
+                            src="assets/images/Cute-Patty.jpg"
+                            class="card-img-top"
+                            alt="Cute Krabby Patty"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Cute Krabby Patty</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            A cute Krabby Patty is a small, cheerful burger with a soft sesame bun, 
+                            fresh lettuce, melted cheese, and a juicy patty. Its bright colors and 
+                            cartoon style make it look adorable and fun to eat. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 18.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 8 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Hash-Browns.jpg"
+                          data-lightbox="Hash Browns"
+                          data-title="Hash Browns"
+                        >
+                          <img
+                            src="assets/images/Hash-Browns.jpg"
+                            class="card-img-top"
+                            alt="Hash Browns"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Hash Browns</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Hash browns are crispy shredded potatoes fried until golden brown. 
+                            Crunchy on the outside and soft inside, they are a popular breakfast side 
+                            dish often served with eggs, burgers, or sandwiches. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 10.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 9 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Special-tea.jpg"
+                          data-lightbox="Special Tea"
+                          data-title="Special Tea"
+                        >
+                          <img
+                            src="assets/images/Special-tea.jpg"
+                            class="card-img-top"
+                            alt="Special Tea"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Special Tea</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Special Tea is a refreshing drink made with carefully selected tea leaves. 
+                            It has a smooth taste, pleasant aroma, and can be enjoyed hot or cold, making it 
+                            a perfect beverage to relax and refresh your day. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 50.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- PAGINATIONS -->
+                    <nav aria-label="Page navigation example">
+                      <ul
+                        class="pagination text-center justify-content-center mt-4"
+                      >
+                        <li class="page-item">
+                          <a href="#" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+                <!-- KRABBY PATTY -->
+                <div class="tab-pane fade" id="krabby-patty">
+                  <h4 class="text-center mb-4">Krabby Patty</h4>
+                  <div class="row g-4">
+                    <!-- CATALOG 1 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krabby-patty.jpg"
+                          data-lightbox="krabby-patty"
+                          data-title="Krabby Patty"
+                        >
+                          <img
+                            src="assets/images/krabby-patty.jpg"
+                            class="card-img-top"
+                            alt="Karbby Patty"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krabby Patty</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            The Krabby Patty is a famous burger from the Krusty Krab in Bikini Bottom. 
+                            Known for its secret recipe, it has a juicy patty, fresh lettuce, cheese, 
+                            pickles, onions, ketchup, and mustard inside a soft sesame bun.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 15.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 2 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krabby-rgb.jpg"
+                          data-lightbox="Krabby Patty RGB"
+                          data-title="Krabby Patty RGB"
+                        >
+                          <img
+                            src="assets/images/krabby-rgb.jpg"
+                            class="card-img-top"
+                            alt="Krabby Patty RGB"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krabby Patty RGB</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            The Krabby Patty is the signature burger of the Krusty Krab in Bikini Bottom. 
+                            It features a juicy patty, fresh lettuce, cheese, pickles, onions, 
+                            and sauces inside a soft sesame bun, 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 20.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                    <!-- PAGINATIONS -->
+                    <nav aria-label="Page navigation example">
+                      <ul
+                        class="pagination text-center justify-content-center mt-4"
+                      >
+                        <li class="page-item">
+                          <a href="#" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+                <!-- KRABBY KIDS -->
+                <div class="tab-pane fade" id="krabby-kids">
+                  <h4 class="text-center mb-4">Krabby Kids</h4>
+                  <div class="row g-4">
+                    <!-- CATALOG 1 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Kiddie-Meal.jpg"
+                          data-lightbox="Kiddie Meal"
+                          data-title="Kiddie Meal"
+                        >
+                          <img
+                            src="assets/images/Kiddie-Meal.jpg"
+                            class="card-img-top"
+                            alt="Kiddie Meal"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Kiddie Meal</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Kiddie Meal is a fun meal made especially for kids at the Krusty Krab. 
+                            It usually includes a small Krabby Patty, crispy fries, a drink, and sometimes a toy, 
+                            making it tasty and enjoyable for young customers.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 25.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 2 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Cute-Patty.jpg"
+                          data-lightbox="Cute Krabby Patty"
+                          data-title="Cute Krabby Patty"
+                        >
+                          <img
+                            src="assets/images/Cute-Patty.jpg"
+                            class="card-img-top"
+                            alt="Cute Krabby Patty"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Cute Krabby Patty</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            A cute Krabby Patty is a small, cheerful burger with a soft sesame bun, 
+                            fresh lettuce, melted cheese, and a juicy patty. Its bright colors and 
+                            cartoon style make it look adorable and fun to eat. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 18.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 3 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Hash-Browns.jpg"
+                          data-lightbox="Hash Browns"
+                          data-title="Hash Browns"
+                        >
+                          <img
+                            src="assets/images/Hash-Browns.jpg"
+                            class="card-img-top"
+                            alt="Hash Browns"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Hash Browns</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Hash browns are crispy shredded potatoes fried until golden brown. 
+                            Crunchy on the outside and soft inside, they are a popular breakfast side 
+                            dish often served with eggs, burgers, or sandwiches. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 10.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                    <!-- PAGINATIONS -->
+                    <nav aria-label="Page navigation example">
+                      <ul
+                        class="pagination text-center justify-content-center mt-4"
+                      >
+                        <li class="page-item">
+                          <a href="#" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+                <!-- KRABBY DRINK -->
+                <div class="tab-pane fade" id="krabby-drink">
+                  <h4 class="text-center mb-4">Krabby Drink</h4>
+                  <div class="row g-4">
+                    <!-- CATALOG 1 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/kelps-shake.jpg"
+                          data-lightbox="Kelp Shake"
+                          data-title="Kelp Shake"
+                        >
+                          <img
+                            src="assets/images/kelps-shake.jpg"
+                            class="card-img-top"
+                            alt="Kelp Shake"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Kelp Shake</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Kelp Shake is a unique drink from Bikini Bottom made with fresh kelp. 
+                            It has a smooth texture and a refreshing ocean flavor, 
+                            making it a popular beverage at the Krusty Krab.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Rp. 10.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 2 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Special-tea.jpg"
+                          data-lightbox="Special Tea"
+                          data-title="Special Tea"
+                        >
+                          <img
+                            src="assets/images/Special-tea.jpg"
+                            class="card-img-top"
+                            alt="Special Tea"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Special Tea</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Special Tea is a refreshing drink made with carefully selected tea leaves. 
+                            It has a smooth taste, pleasant aroma, and can be enjoyed hot or cold, making it 
+                            a perfect beverage to relax and refresh your day. 
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 50.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                    <!-- PAGINATIONS -->
+                    <nav aria-label="Page navigation example">
+                      <ul
+                        class="pagination text-center justify-content-center mt-4"
+                      >
+                        <li class="page-item">
+                          <a href="#" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+                <!-- UNIQUE KRABBY -->
+                <div class="tab-pane fade" id="unique-krabby">
+                  <h4 class="text-center mb-4">Unique Krabby</h4>
+                  <div class="row g-4">
+                    <!-- CATALOG 1 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/Potato-Stick.jpg"
+                          data-lightbox="Tie Potatoes"
+                          data-title="Tie Potatoes"
+                        >
+                          <img
+                            src="assets/images/Potato-Stick.jpg"
+                            class="card-img-top"
+                            alt="Tie Potatoes"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Tie Potatoes</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Tie Potatoes are crispy potato snacks shaped like small ties. 
+                            They are golden, crunchy on the outside, soft on the inside, 
+                            and usually served warm with tasty dipping sauces at the Krusty Krab
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 8.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CATALOG 2 -->
+                    <div class="col-md-4">
+                      <div class="card">
+                        <a
+                          href="assets/images/krusty-dogs.jpg"
+                          data-lightbox="Krusty Dog"
+                          data-title="Krusty Dog"
+                        >
+                          <img
+                            src="assets/images/krusty-dogs.jpg"
+                            class="card-img-top"
+                            alt="Krusty Dog"
+                          />
+                        </a>
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-warning">
+                            <strong>Krusty Dog</strong>
+                          </h5>
+                          <p class="card-text text-center">
+                            Krusty Dog is a delicious hot dog from the Krusty Krab. 
+                            It features a juicy sausage inside a soft bun, topped with fresh ingredients 
+                            and tasty sauces, making it a popular snack in Bikini Bottom.
+                          </p>
+                          <h4 class="text-center text-warning mb-3">
+                            Bp. 12.000
+                          </h4>
+                          <div class="dropdown text-center">
+                            <button
+                              class="btn btn-outline-warning dropdown-toggle w-100"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Selengkapnya
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="detail.html" class="dropdown-item"
+                                  >Lihat</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item">Beli</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- PAGINATIONS -->
+                    <nav aria-label="Page navigation example">
+                      <ul
+                        class="pagination text-center justify-content-center mt-4"
+                      >
+                        <li class="page-item">
+                          <a href="#" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a href="#" class="page-link">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- KATEGORI TUTUP -->
+
+    <!-- SECTION SUBSCRIBE -->
+    <div class="container-fluid py-5 footer">
+      <div class="container">
+        <h5 class="text-center text-light mb-3">Meet Us</h5>
+        <!-- LOGO -->
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+          <a
+            href="https://facebook.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            href="https://instagram.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a
+            href="https://youtube.com/@username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <h5 class="text-center text-light mb-1">Subscribe</h5>
+        <p class="text-center text-muted mb-3">
+          for information about promotions
+        </p>
+        <!-- SUBSCRIBE -->
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Write Your Email"
+              />
+              <button class="btn btn-warning text-light">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SUBSCRIBE TUTUP -->
+
+    <!-- SECTION FOOTER -->
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="fw-bold">Krusty Krabs Restourant</h5>
+            <p class="text-muted small">
+              A delicious, comfortable, and affordable place to eat for all
+              levels of Bikini Bottom marine life.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-3">Navigation</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-muted text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-muted text-decoration-none">Produk</a>
+              </li>
+              <li>
+                <a href="#" class="text-muted text-decoration-none">Promo</a>
+              </li>
+              <li>
+                <a href="#" class="text-muted text-decoration-none"
+                  >Reservasi</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold mb-3">Contact</h6>
+            <ul class="list-unstyled text-muted small">
+              <li class="mb-1">
+                <i class="bi bi-geo-alt-fill me-2"></i>Jl. Mermaidmen No. 3, Bikini Bottom
+              </li>
+              <li class="mb-1">
+                <i class="bi bi-telephone-fill me-2"></i>+62 345 6789 1010
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill me-2"></i>krustykrab@bottom.sea
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3" />
+        <p class="text-center text-muted small mb-0">
+          &copy; 2025 Bikini Bottom. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- FOOTER TUTUP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  </body>
+</html>
