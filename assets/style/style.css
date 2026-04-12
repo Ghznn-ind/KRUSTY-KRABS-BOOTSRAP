@@ -206,7 +206,12 @@ footer.bg-dark .text-muted {
   display: flex;
 }
 
-/* KATEGORI PRODUK */
+/* DETAIL PRODUK */
+.rekomendasi-img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
 .tab-content .card {
   height: 100%;
   display: flex;
